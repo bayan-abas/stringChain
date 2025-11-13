@@ -10,7 +10,7 @@ public class CUnitTest {
         // יוצרים את C עם הסטאב
         C c = new C(stub);
 
-        // קוראים ל־C — לא לסטאב!
+
         String result = c.process("HE");
 
         // מאמתים את הפלט
